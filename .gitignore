@@ -14,3 +14,8 @@ dump.rdb
 
 celerybeat*
 /venv/
+*/__pycache__/
+
+
+# git rm -r -f --cached */__pycache__
+# git rm -r --cached .idea

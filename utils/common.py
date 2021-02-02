@@ -87,6 +87,7 @@ def run_server(ip='127.0.0.1', port=8000):
             # 匹配路由
             result = matching_url(analysis_data['url'], analysis_data['params'])
 
+            # 响应头信息
             conn.send(b"HTTP/1.1 200 OK\r\n Content-Type: application/json\r\n\r\n")
 
             if "tem" in analysis_data['url']:  # tem 关键字为模板请求
