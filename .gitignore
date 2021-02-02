@@ -10,7 +10,7 @@ dump.rdb
 
 *.idea*
 *.vscode*
-.idea/
+.idea/workspace.xml
 
 celerybeat*
 /venv/
