@@ -137,4 +137,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as phone:
             send_msg(conn, bytes(client_data+"hello", encoding="utf-8"))
 
 # https://www.cnblogs.com/ssyfj/p/9245150.html
-# https://websockets.readthedocs.io/en/stable/intro.html
+
