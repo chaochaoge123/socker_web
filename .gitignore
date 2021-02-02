@@ -1,0 +1,15 @@
+.DS_Store
+.project
+
+*.pyc
+core/config/develop.py
+
+tags
+*.tags*
+dump.rdb
+
+*.idea*
+*.vscode*
+
+celerybeat*
+/venv/
