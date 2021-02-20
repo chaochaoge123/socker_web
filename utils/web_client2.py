@@ -7,8 +7,8 @@
 
 import websocket
 
-header=["user_id:33"]
-ws = websocket.create_connection("ws://127.0.0.1:8080", header=header)
+header=["user_id:44"]
+ws = websocket.create_connection("ws://127.0.0.1:5000/ws/v1/user/one/chet/qqc2", header=header)
 
 # print("发送中...")
 
